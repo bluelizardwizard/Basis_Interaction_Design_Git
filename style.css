@@ -1,0 +1,92 @@
+.head{
+   position: absolute;
+  
+  top: 10vw;
+  left: 28vw;
+  
+  width: 40vw;
+  height: 50vw;
+  background: #FCD5CC;  
+  border-radius: 45% 45% 47% 47% / 45% 45% 47% 47%;
+}
+
+.cheek_left{
+  position:absolute;
+  
+    top:24vw;
+  left:2vw; 
+    
+  
+  border-radius:100%;
+  opacity:0.5;
+  width:15vw;
+  height:15vw;
+ --hdr-gradient: radial-gradient(
+    70px circle in oklab,
+    oklch(70% 0.50 53 / 54%),
+    oklch(100% 0 165 / 0%)
+  );
+  --sdr-gradient: radial-gradient(200px circle, #ff0000d6, #fff0);
+
+  background: var(--hdr-gradient);
+  
+  )
+
+}
+
+
+.cheek_right{
+  position:absolute;
+  
+    top:24vw;
+  left:22vw; 
+    
+  
+  border-radius:100%;
+  opacity:0.5;
+  width:15vw;
+  height:15vw;
+ --hdr-gradient: radial-gradient(
+    70px circle in oklab,
+    oklch(70% 0.50 53 / 54%),
+    oklch(100% 0 165 / 0%)
+  );
+  --sdr-gradient: radial-gradient(200px circle, #ff0000d6, #fff0);
+
+  background: var(--hdr-gradient);
+  
+  )
+}
+
+.lips{
+  position: absolute;
+  
+ background: radial-gradient(pink, red);bottom: 10vw;
+  left: 8vw;
+  height: 8vw;
+  width: 20vw;
+  clip-path: polygon(20% 63%, 29% 69%, 43% 72%, 57% 68%, 66% 61%, 56% 54%, 47% 52%, 42% 55%, 38% 53%, 28% 56%);
+}
+
+.nose{
+  postion:absolute;
+  
+  top:50vw;
+  left:88vw;
+  
+  background:beige;
+  height: 8vw;
+  width: 5vw;
+  clip-path: polygon(54% 8%, 11% 100%, 92% 100%);
+}
+
+.hair{
+  position:absolute;
+  left:-20vw;
+  top:-32vw;
+  
+  height:110vw;
+  width:140vw;
+  background-color:#EDD47B;
+  clip-path: polygon(23% 93%, 23% 78%, 24% 61%, 24% 61%, 24% 46%, 28% 35%, 32% 31%, 39% 29%, 44% 29%, 48% 32%, 51% 29%, 60% 31%, 67% 36%, 69% 44%, 70% 53%, 71% 65%, 70% 73%, 71% 85%, 71% 94%, 66% 93%, 63% 97%, 60% 93%, 58% 99%, 59% 87%, 60% 78%, 60% 69%, 61% 57%, 61% 51%, 59% 45%, 54% 43%, 48% 43%, 43% 44%, 39% 48%, 36% 54%, 35% 59%, 35% 66%, 35% 74%, 35% 82%, 35% 93%, 31% 90%, 30% 96%, 27% 91%, 23% 93%, 22% 90%);
+}
