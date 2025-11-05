@@ -1,5 +1,7 @@
 body {
-  /* background:  */
+background: #c0e6fa;
+background: linear-gradient(0deg, rgba(192, 230, 250, 1) 0%, rgba(237, 83, 150, 0.34) 100%);
+min-height: 100vh;
 }
 
 
@@ -8,6 +10,7 @@ body {
   
   top: 10vw;
   left: 28vw;
+  z-index: 100;
   
   width: 40vw;
   height: 50vw;
@@ -88,6 +91,7 @@ body {
   position:absolute;
   left:-31vw;
   top:-69vw;
+  z-index: 101;
   
   height:159vw;
   width:155vw;
@@ -99,6 +103,7 @@ body {
   position:absolute;
   left:20vw;
   top:20vw;
+  z-index: 90;
   
   height:80vw;
   width:70vw;
@@ -110,10 +115,11 @@ body {
    position:absolute;
   left:38vw;
   top:-8.5vw;
+  z-index: 102;
   
   height:24vw;
   width:19vw;
-  background-color:white;
+  background-color: #fac6db;
   clip-path: polygon(27% 32%, 45% 54%, 65% 31%);
 }
 
@@ -211,6 +217,7 @@ body {
   position:absolute;
   left:19vw;
   top:17.5vw;
+   z-index: 101;
 
   height:28vw;
   width:38vw;
@@ -222,6 +229,7 @@ body {
   position:absolute;
   left:38vw;
   top:17.5vw;
+  z-index: 101;
 
   height:28vw;
   width:38vw;
@@ -234,9 +242,24 @@ body {
   position:absolute;
   left:46vw;
   top:31.5vw;
+   z-index: 101;
 
   height:1vw;
   width:3vw;
   transform:scaleX(-1);
   background-color:rgb(189, 181, 89);
+}
+
+marquee{
+  position:absolute;
+}
+
+
+.cloud {
+    height: 22vw; 
+    z-index: -999;
+    aspect-ratio: 1.8;
+    --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+    mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+    background: #c1dcf1;
 }
