@@ -1,3 +1,8 @@
+body {
+background: 
+}
+
+
 .head{
    position: absolute;
   
@@ -37,7 +42,7 @@
 .cheek_right{
   position:absolute;
   
-    top:24vw;
+  top:24vw;
   left:22vw; 
     
   
@@ -54,15 +59,14 @@
 
   background: var(--hdr-gradient);
   
-  )
 }
 
 .lips{
   position: absolute;
   top:30vw;
+  left:9vw;
   
- background: radial-gradient(pink, red);bottom: 10vw;
-  left: 8vw;
+  background: radial-gradient(pink, red);bottom: 10vw;
   height: 15vw;
   width: 24vw;
   clip-path: polygon(20% 63%, 29% 69%, 43% 72%, 57% 68%, 66% 61%, 56% 54%, 47% 52%, 42% 55%, 38% 53%, 28% 56%);
@@ -100,6 +104,17 @@
   width:70vw;
   background-color:#e6cd72;
   clip-path: polygon(13% 25%, 11% 38%, 13% 49%, 16% 61%, 16% 72%, 14% 87%, 19% 81%, 22% 71%, 25% 66%, 23% 78%, 25% 86%, 29% 75%, 28% 64%, 30% 83%, 33% 66%, 35% 74%, 35% 81%, 40% 72%, 38% 63%, 39% 57%, 40% 67%, 43% 77%, 41% 85%, 44% 90%, 44% 82%, 47% 73%, 48% 66%, 48% 79%, 47% 89%, 52% 83%, 52% 71%, 56% 62%, 58% 71%, 55% 78%, 57% 87%, 60% 93%, 59% 82%, 64% 72%, 66% 61%, 67% 41%, 68% 26%);
+}
+
+.hair_dent{
+   position:absolute;
+  left:38vw;
+  top:-8.5vw;
+  
+  height:24vw;
+  width:19vw;
+  background-color:white;
+  clip-path: polygon(27% 32%, 45% 54%, 65% 31%);
 }
 
 .eye_left{
