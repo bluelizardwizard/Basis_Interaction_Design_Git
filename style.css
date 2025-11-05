@@ -19,13 +19,13 @@ body {
   position:absolute;
   
     top:24vw;
-  left:2vw; 
+  left:1vw; 
     
   
   border-radius:100%;
   opacity:0.5;
-  width:15vw;
-  height:15vw;
+  width:17vw;
+  height:17vw;
  --hdr-gradient: radial-gradient(
     70px circle in oklab,
     oklch(70% 0.50 53 / 54%),
@@ -43,13 +43,13 @@ body {
   position:absolute;
   
   top:24vw;
-  left:22vw; 
+  left:21vw; 
     
   
   border-radius:100%;
   opacity:0.5;
-  width:15vw;
-  height:15vw;
+  width:17vw;
+  height:17vw;
  --hdr-gradient: radial-gradient(
     70px circle in oklab,
     oklch(70% 0.50 53 / 54%),
