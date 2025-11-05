@@ -1,10 +1,10 @@
 body {
-background: 
+  /* background:  */
 }
 
 
 .head{
-   position: absolute;
+  position: absolute;
   
   top: 10vw;
   left: 28vw;
@@ -145,8 +145,8 @@ background:
   left: 11vw;
   top:8vw;
 
-  height:5vw;
-  width:20vw;
+  height:7vw;
+  width:4vw;
   transform:scaleX(-1);
   background-color:rgb(27, 91, 211);
 
@@ -154,16 +154,31 @@ background:
 
 .pupil_right{
   position:absolute;
-  left: -12vw;
+  left: 4vw;
   top:7vw;
 
-  height:6vw;
-  width:20vw;
+  height:12vw;
+  width:4vw;
   transform:scaleX(-1);
   background-color:rgb(27, 91, 211);
 
 }
 
+.eye_left:hover + .eye_right > .pupil_right{
+  left:11vw;
+}
+
+.eye_left:hover > .pupil_left{
+  left:4vw;
+}
+
+.eye_right:hover ~ .eye_left > .pupil_left{
+  left:11vw;
+}
+
+.eye_right:hover > .pupil_right{
+  left:11vw;
+}
 
 .eyebrow_left{
   position:absolute;
